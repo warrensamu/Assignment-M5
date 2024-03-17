@@ -37,7 +37,7 @@ function theGame(choice) {
                 alert(`Opponent chose ${compChoice} and you chose ${userChoice}. You lose!`)
                 break
             case 'paper':
-                alert('You both chose rock! Tie!')
+                alert('You both chose paper! Tie!')
                 break
             case 'scissors':
                 alert(`Opponent chose ${compChoice} and you chose ${userChoice}. You win!`)
@@ -51,7 +51,7 @@ function theGame(choice) {
                 alert(`Opponent chose ${compChoice} and you chose ${userChoice}. You lose!`)
                 break
             case 'scissors':
-                alert('You both chose rock! Tie!')
+                alert('You both chose scissors! Tie!')
         }
     }
 }
